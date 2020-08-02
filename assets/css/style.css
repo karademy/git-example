@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'fontawesome';
+  src: url("../webfonts/fa-regular-400.eot") format('eot'),
+       url("../webfonts/fa-regular-400.woff") format('woff');
+}
+
+.navbar {
+    list-style: none;
+  }
+
+.home-icon {
+    background: url('../image/home.svg') no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.hear-icon:before {
+  font-family: 'fontawesome';
+  content: '\f042';
+  width:20px;
+  display: inline-block;
+}
+  
+  .notification-badge {
+    position: relative;
+  }
+sup {
+  border: thin solid #fff;
+  background-color: dodgerblue;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  position: absolute;
+  left: 8px;
+}
